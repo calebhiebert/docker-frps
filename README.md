@@ -16,6 +16,7 @@ Environment configuration:
  * `FRPS_PERSISTENT_PORTS` - Enable to turn on PortManager plugin, defaults to false
  * `FRPS_LETSENCRYPT_EMAIL` - Set to your email to enable ACMEProxy, defaults to empty string
  * `FRPS_LINK_NOTIFIER` - Enable to turn on LinkNotifier plugin, defaults to false
+ * `FRPS_ALLOW_PORTS` - configure allowed ports, defaults to "30000-30900"
 
 Note that an external volume has to be mounted to `/data` to make the port reservations and certificates persistent. 
 
